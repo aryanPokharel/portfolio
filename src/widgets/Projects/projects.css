@@ -1,0 +1,52 @@
+/* src/components/Projects.css */
+
+.projects {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .projects h1 {
+    font-size: 36px;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .project h2 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .project p {
+    font-size: 16px;
+  }
+  
+  .project a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+  
