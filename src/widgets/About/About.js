@@ -12,11 +12,7 @@ function About() {
         <section className="card mb-4">
           <div className="card-body">
             <h1 className="card-title">About Me</h1>
-            <img
-              src="your-profile-image.jpg"
-              alt="Your Name"
-              className="card-img-top rounded-circle"
-            />
+ 
             <p className="card-text">
               Hi, I'm Aryan Pokharel, a freelance developer, mobile & web, based in Kathmandu.
               Here, you can learn a bit about me, my background, and my interests.

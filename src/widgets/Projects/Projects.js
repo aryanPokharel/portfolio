@@ -1,25 +1,27 @@
 import React from 'react'
 import './projects.css'
 
+
 const Projects= () => {
+
     const projects = [
         {
-          title: 'Project 1',
-          description: 'Description of Project 1.',
-          image: 'project1.jpg',
-          link: 'https://project1-link.com',
+          title: 'Budget Buddy',
+          description: 'Mobile app that helps you manage your budget and expenses. Built with Flutter.',
+          image: '../../media/budgetBuddy.png',
+          link: 'https://github.com/aryanPokharel/BudgetBuddy.git',
         },
         {
-          title: 'Project 2',
-          description: 'Description of Project 2.',
-          image: 'project2.jpg',
-          link: 'https://project2-link.com',
+          title: 'Freelance Nepal',
+          description: 'Web app that helps you find freelance jobs in Nepal. Built with React.',
+          image: 'https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png',
+          link: 'https://github.com/softwarica-github/web-api-batch-28---front-end-aryanPokharel.git',
         },
         {
-          title: 'Project 3',
-          description: 'Description of Project 3.',
-          image: 'project3.jpg',
-          link: 'https://project3-link.com',
+          title: 'Smart Gate with NodeMCU',
+          description: 'IoT project that uses NodeMCU to automate the opening and closing of a gate.',
+          image: 'https://upload.wikimedia.org/wikipedia/commons/7/7e/NodeMCU_DEVKIT_1.0.jpg',
+          link: 'https://youtu.be/OBdi1tBsvJY',
         },
       ];
   return (
