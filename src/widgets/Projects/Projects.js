@@ -7,7 +7,7 @@ const Projects= () => {
         {
           title: 'Budget Buddy',
           description: 'Mobile app that helps you manage your budget and expenses. Built with Flutter.',
-          image: '../../media/budgetBuddy.png',
+          image: 'https://www.banking24seven.com/wp-content/uploads/2018/12/BANKING-featured-image-of-finance-budget.jpg',
           link: 'https://github.com/aryanPokharel/BudgetBuddy.git',
         },
         {

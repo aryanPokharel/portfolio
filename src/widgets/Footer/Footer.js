@@ -9,51 +9,56 @@ function Footer() {
     {/* Section: Social media */}
     <section className="mb-4">
       {/* Facebook */}
-      <a
+      <Link
         className="btn text-white btn-floating m-1"
         style={{ backgroundColor: "#3b5998" }}
-        href="#!"
+        to="https://www.facebook.com/aryan.pokharel.167"
+        target='new'
         role="button"
       >
         <i className="fab fa-facebook-f" />
-      </a>
+      </Link>
       {/* Twitter */}
-      <a
+      <Link
         className="btn text-white btn-floating m-1"
         style={{ backgroundColor: "#55acee" }}
-        href="#!"
+        to="https://twitter.com/AryanPokharel5"
+        target='new'
         role="button"
       >
         <i className="fab fa-twitter" />
-      </a>
+      </Link>
      
       {/* Instagram */}
-      <a
+      <Link
         className="btn text-white btn-floating m-1"
         style={{ backgroundColor: "#dd4b39" }}
-        href="#!"
+        to="https://www.instagram.com/aryan_nep/"
+        target='new'
         role="button"
       >
         <i className="fab fa-instagram" />
-      </a>
+      </Link>
       {/* Linkedin */}
-      <a
+      <Link
         className="btn text-white btn-floating m-1"
         style={{ backgroundColor: "#0082ca" }}
-        href="#!"
+        to="https://www.linkedin.com/in/aryan-pokharel-0766401a6/"
+        target='new'
         role="button"
       >
         <i className="fab fa-linkedin-in" />
-      </a>
+      </Link>
       {/* Github */}
-      <a
+      <Link
         className="btn text-white btn-floating m-1"
         style={{ backgroundColor: "#333333" }}
-        href="#!"
+        to="https://github.com/aryanPokharel"
+        target='new'
         role="button"
       >
         <i className="fab fa-github" />
-      </a>
+      </Link>
     </section>
 
   </div>
