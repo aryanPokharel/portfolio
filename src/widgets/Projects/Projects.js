@@ -3,7 +3,6 @@ import './projects.css'
 
 
 const Projects= () => {
-
     const projects = [
         {
           title: 'Budget Buddy',
