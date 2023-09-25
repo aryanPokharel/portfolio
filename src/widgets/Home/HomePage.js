@@ -1,16 +1,11 @@
 import React from 'react';
+import LandingPage from '../../components/Landing';
 
 const HomePage = () => {
   return (
     <div>
+<LandingPage />
 
-      <main>
-        <div className="jumbotron text-center">
-          <h1 className="display-4">Welcome </h1>
-          <p className="lead">I am a passionate web developer, and this is my showcase of work.</p>
-          <a className="btn btn-primary btn-lg" href="#" role="button">View My Projects</a>
-        </div>
-      </main>
 
       
     </div>
