@@ -1,41 +1,90 @@
-import React from 'react'
-import './services.css'
+import React from "react";
+import "./Services.css";
+import { Link } from "react-router-dom";
 
-const Services = ()=> {
-  const services = [
+function Services() {
+  const servicesData = [
     {
-      title: 'Mobile Application Development',
-      description: 
-      'Are you in search of a seasoned mobile app developer with expertise in both Flutter and React Native? Look no further! I specialize in the end-to-end creation, management, and optimization of mobile applications using these cutting-edge technologies. With a wealth of experience under my belt, I bring a deep understanding of Flutter and React Native, two of the most versatile frameworks for cross-platform mobile app development. What sets me apart is my commitment to tailoring solutions to your unique project requirements, ensuring that your app not only functions flawlessly but also stands out in terms of design and user experience.'
-      ,
-      icon: 'https://www.psymbolic.com/wp-content/uploads/2018/10/4.jpg',
+      id: "mobile-development",
+      title: "Mobile Application Development",
+      description:
+        "We specialize in creating innovative and user-friendly mobile applications for iOS and Android platforms.",
+      icon: "📱",
     },
     {
-      title: 'Web Development',
-      description: 'If youre seeking a proficient web developer with expertise in the MERN (MongoDB, Express.js, React, and Node.js) stack, your search ends here. I specialize in delivering comprehensive web development services, harnessing the power of these cutting-edge technologies. With a strong foundation in the MERN stack, I bring a wealth of experience and knowledge to the table, ensuring that your web projects are built to excel.',
-      icon: 'https://www.infomazeelite.com/wp-content/uploads/2022/02/Hire-MERN-Stack-Developers-from-us.png',    
+      id: "web-development",
+      title: "Web Development",
+      description:
+        "Our expert team of web developers crafts responsive and feature-rich websites tailored to your business needs.",
+      icon: "🌐",
     },
     {
-      title: 'Internet Of Things',
-      description: 'Are you on the hunt for an experienced IoT developer proficient in Arduino and Raspberry Pi technologies? Your search has brought you to the right place. I specialize in crafting innovative IoT solutions, leveraging the power of these versatile platforms. With a solid foundation in Arduino and Raspberry Pi, I bring a wealth of expertise to the realm of IoT development, ensuring your projects are on the cutting edge of technology.',
-      icon: 'https://www.apptunix.com/blog/wp-content/uploads/sites/3/2021/05/Banner_IoT.jpg',
+      id: "software-development",
+      title: "Software Development",
+      description:
+        "From custom software solutions to enterprise applications, we deliver high-quality software to drive your business forward.",
+      icon: "💻",
+    },
+    {
+      id: "robotics",
+      title: "Robotics",
+      description:
+        "Explore the possibilities of robotics with our cutting-edge solutions, pushing the boundaries of automation and innovation.",
+      icon: "🤖",
+    },
+    {
+      id: "automation-services",
+      title: "Automation Services",
+      description:
+        "Optimize your business processes with our automation services, improving efficiency and reducing manual workload.",
+      icon: "🔄",
+    },
+    {
+      id: "digital-marketing",
+      title: "Digital Marketing",
+      description:
+        "Our digital marketing services help you grow your business by reaching your target audience and converting leads.",
+      icon: "📈",
     },
   ];
 
   return (
-    <div className="services">
-      <h1>Services</h1>
-      <div className="service-list">
-        {services.map((service, index) => (
-          <div className="service" key={index}>
-            <img src={service.icon} alt={service.title} />
-            <h2>{service.title}</h2>
-            <p>{service.description}</p>
+    <div className="services-container">
+      <section className="py-5">
+        <div className="container">
+          <div style={{ height: "10vh" }}></div>
+          <div className="row d-flex align-items-center">
+            <div className="col-md-6">
+              <h2 className="display-4 fw-bold text-primary">Our Services</h2>
+            </div>
+            <div className="col-md-6 text-md-end">
+              <Link to="/contact">
+                <button
+                  className="btn btn-primary"
+                  style={{ marginTop: "auto" }}
+                >
+                  Explore
+                </button>
+              </Link>
+            </div>
           </div>
-        ))}
-      </div>
+          <div className="row">
+            {servicesData.map((service) => (
+              <div key={service.id} className="col-md-4 mb-4">
+                <div id={service.id} className="card">
+                  <div className="card-body">
+                    <div className="service-icon">{service.icon}</div>
+                    <h5 className="card-title">{service.title}</h5>
+                    <p className="card-text">{service.description}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
 
-export default Services
+export default Services;

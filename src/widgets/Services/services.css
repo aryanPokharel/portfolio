@@ -1,40 +1,12 @@
-/* src/components/Services.css */
-
-.services {
-    text-align: center;
-    padding: 20px;
+#mobile-development,
+#web-development,
+#software-development,
+#robotics,
+#automation-services {
+  height: 100%;
+}
+@media screen and (max-width: 768px) {
+  .row {
+    margin-bottom: 5%;
   }
-  
-  .services h1 {
-    font-size: 36px;
-  }
-  
-  .service-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .service {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    max-width: 300px;
-    text-align: center;
-  }
-  
-  .service img {
-    max-width: 100px;
-    height: auto;
-  }
-  
-  .service h2 {
-    font-size: 24px;
-    margin-top: 10px;
-  }
-  
-  .service p {
-    font-size: 16px;
-  }
-  
+}

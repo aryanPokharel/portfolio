@@ -8,8 +8,8 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            <span style={{ color: "red" }}>Software</span>
-            <span style={{ color: "blue" }}>भट्टी </span>
+            <span style={{ color: "red" }}>Aryan</span>
+            <span style={{ color: "blue" }}>Pokharel </span>
           </Link>
           <button
             className="navbar-toggler"
@@ -49,7 +49,7 @@ function Navbar() {
               <li className="nav-item me-3 me-lg-0">
                 <Link
                   className="nav-link"
-                  to="https://www.instagram.com/softwarebhatti/"
+                  to="https://www.instagram.com/aryan_nep/"
                 >
                   <i className="fab fa-instagram" style={{ color: "purple" }} />
                 </Link>

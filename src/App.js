@@ -6,8 +6,8 @@ import Footer from './widgets/Footer/Footer';
 import About from './widgets/About/About';
 import { BrowserRouter,Route, Routes } from "react-router-dom";
 import Projects from './widgets/Projects/Projects';
-import Services from './widgets/Services/Services';
 import Contact from './widgets/Contact/Contact';
+import Services from './widgets/Services/Services';
 function App() {
   return (
     <div className="App">
