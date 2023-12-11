@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css";
+// import "./About.css";
 import project1 from "../../media/budgetBuddy.png";
 import project2 from "../../media/budgetBuddy.png";
 import project3 from "../../media/budgetBuddy.png";
