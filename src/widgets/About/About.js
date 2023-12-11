@@ -7,6 +7,7 @@ import project4 from "../../media/budgetBuddy.png";
 import project5 from "../../media/budgetBuddy.png";
 
 function About() {
+  
   // const handleDownload = () => {
   //   const apkUrl = process.env.PUBLIC_URL + "../../files/budgetBuddy.apk";
   //   const link = document.createElement("a");
