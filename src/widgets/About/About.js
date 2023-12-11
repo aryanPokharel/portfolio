@@ -1,5 +1,4 @@
-
-import './about.css'
+import "./about.css";
 import project1 from "../../media/budgetBuddy.png";
 import project2 from "../../media/budgetBuddy.png";
 import project3 from "../../media/budgetBuddy.png";
@@ -7,7 +6,6 @@ import project4 from "../../media/budgetBuddy.png";
 import project5 from "../../media/budgetBuddy.png";
 
 function About() {
-  
   const handleDownload = () => {
     const apkUrl = process.env.PUBLIC_URL + "../../files/budgetBuddy.apk";
     const link = document.createElement("a");
@@ -64,7 +62,8 @@ function About() {
                   </div>
                   <div className="card-body">
                     <h5 className="card-title">
-                      {project.name}{"   "}
+                      {project.name}
+                      {"   "}
                       {project.name === "Budget Buddy" && (
                         <i
                           className="fas fa-download"
