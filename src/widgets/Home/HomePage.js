@@ -1,7 +1,7 @@
 const HomePage = () => {
   return (
     <div>
-      {/* Display Home Page text at the center of the screen */}
+
       <div className="d-flex justify-content-center align-items-center">
         <div
           style={{
