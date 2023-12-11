@@ -7,15 +7,15 @@ import project4 from "../../media/budgetBuddy.png";
 import project5 from "../../media/budgetBuddy.png";
 
 function About() {
-  const handleDownload = () => {
-    const apkUrl = process.env.PUBLIC_URL + "../../files/budgetBuddy.apk";
-    const link = document.createElement("a");
-    link.href = apkUrl;
-    link.download = "budgetBuddy.apk";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+  // const handleDownload = () => {
+  //   const apkUrl = process.env.PUBLIC_URL + "../../files/budgetBuddy.apk";
+  //   const link = document.createElement("a");
+  //   link.href = apkUrl;
+  //   link.download = "budgetBuddy.apk";
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // };
   return (
     <div className="about-us-container">
       <section className="py-5">
@@ -66,7 +66,7 @@ function About() {
                       {project.name === "Budget Buddy" && (
                         <i
                           className="fas fa-download"
-                          onClick={handleDownload}
+                          // onClick={handleDownload}
                         />
                       )}
                     </h5>
