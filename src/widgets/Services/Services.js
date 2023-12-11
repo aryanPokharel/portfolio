@@ -1,5 +1,5 @@
 import React from "react";
-import "./Services.css";
+import "./services.css";
 import { Link } from "react-router-dom";
 
 function Services() {

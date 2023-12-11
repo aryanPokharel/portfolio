@@ -1,5 +1,5 @@
 
-import '../About/About.css'
+import './about.css'
 import project1 from "../../media/budgetBuddy.png";
 import project2 from "../../media/budgetBuddy.png";
 import project3 from "../../media/budgetBuddy.png";
