@@ -6,15 +6,6 @@ import project4 from "../../media/budgetBuddy.png";
 import project5 from "../../media/budgetBuddy.png";
 import budgetBuddyApk from "../../files/budgetBuddy.apk"
 function About() {
-  const handleDownload = () => {
-    const apkUrl = process.env.PUBLIC_URL + budgetBuddyApk;
-    const link = document.createElement("a");
-    link.href = apkUrl;
-    link.download = "budgetBuddy.apk";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
 
   return (
     <div className="about-us-container">
