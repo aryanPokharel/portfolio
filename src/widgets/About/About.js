@@ -4,10 +4,10 @@ import project2 from "../../media/budgetBuddy.png";
 import project3 from "../../media/budgetBuddy.png";
 import project4 from "../../media/budgetBuddy.png";
 import project5 from "../../media/budgetBuddy.png";
-
+import budgetBuddyApk from "../../media/budgetBuddy.apk"
 function About() {
   const handleDownload = () => {
-    const apkUrl = process.env.PUBLIC_URL + "../../files/budgetBuddy.apk";
+    const apkUrl = process.env.PUBLIC_URL + budgetBuddyApk;
     const link = document.createElement("a");
     link.href = apkUrl;
     link.download = "budgetBuddy.apk";
@@ -65,10 +65,11 @@ function About() {
                       {project.name}
                       {"   "}
                       {project.name === "Budget Buddy" && (
-                        <i
-                          className="fas fa-download"
-                          onClick={handleDownload}
-                        />
+                        // <i
+                        //   className="fas fa-download"
+                        //   onClick={handleDownload}
+                        // />
+                        <a href={budgetBuddyApk} download> Download</a>
                       )}
                     </h5>
 
