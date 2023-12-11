@@ -90,7 +90,7 @@ const projects = [
 
   { name: "Freelance Nepal", title: "Freelancing App", image: project2 },
   { name: "Smart Door", title: "IoT Smart Gate", image: project3 },
-  { name: "Freelancin Website", title: "Web Interface", image: project4 },
+  { name: "Freelancing Website", title: "Web Interface", image: project4 },
   {
     name: "Sipalu",
     title: "Workforce Hiring App",
