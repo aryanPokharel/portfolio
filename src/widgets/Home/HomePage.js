@@ -1,6 +1,3 @@
-import React from 'react';
-import LandingPage from '../../components/Landing';
-
 const HomePage = () => {
   return (
     <div>

@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-// import emailjs from "emailjs-com";
+import  { useState } from "react";
 
 function Contact() {
   const [name, setName] = useState("N/A");
