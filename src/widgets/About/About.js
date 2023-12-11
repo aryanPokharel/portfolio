@@ -4,7 +4,7 @@ import project2 from "../../media/budgetBuddy.png";
 import project3 from "../../media/budgetBuddy.png";
 import project4 from "../../media/budgetBuddy.png";
 import project5 from "../../media/budgetBuddy.png";
-import budgetBuddyApk from "../../media/budgetBuddy.apk"
+import budgetBuddyApk from "../../files/budgetBuddy.apk"
 function About() {
   const handleDownload = () => {
     const apkUrl = process.env.PUBLIC_URL + budgetBuddyApk;
@@ -65,10 +65,7 @@ function About() {
                       {project.name}
                       {"   "}
                       {project.name === "Budget Buddy" && (
-                        // <i
-                        //   className="fas fa-download"
-                        //   onClick={handleDownload}
-                        // />
+                   
                         <a href={budgetBuddyApk} download> Download</a>
                       )}
                     </h5>
