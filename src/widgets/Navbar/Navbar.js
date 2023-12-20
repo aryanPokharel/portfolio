@@ -51,7 +51,7 @@ function Navbar() {
                   className="nav-link"
                   to="https://www.instagram.com/aryan_nep/"
                 >
-                  <i className="fab fa-instagram" style={{ color: "purple" }} />
+                  <i className="fab fa-instagram" style={{ color: "white" }} />
                 </Link>
               </li>
             </ul>
