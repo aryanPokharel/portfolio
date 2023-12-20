@@ -14,3 +14,8 @@
   background-image: url('../../media/aboutBg.jpg');
   background-size:cover;
 }
+.col-md-4 :hover{
+  background-color: #447ce8;
+  color: #fff;
+  border-radius: 9px;
+}

@@ -55,13 +55,13 @@ function Services() {
           <div style={{ height: "10vh" }}></div> 
           <div className="row d-flex align-items-center">
             <div className="col-md-6">
-              <h2 className="display-4 fw-bold text-primary">Our Services</h2>
+              <h2 className="display-4 fw-bold" style={{color: "#447ce8"}}>Our Services</h2>
             </div>
             <div className="col-md-6 text-md-end">
               <Link to="/contact">
                 <button
-                  className="btn btn-primary"
-                  style={{ marginTop: "auto" }}
+                  className="btn"
+                  style={{ marginTop: "auto", backgroundColor: "#447ce8", color: "white" }}
                 >
                   Explore
                 </button>

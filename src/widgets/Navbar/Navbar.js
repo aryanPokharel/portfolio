@@ -9,7 +9,7 @@ function Navbar() {
         <div className="container">
           <Link className="navbar-brand" to="/">
             <span style={{ color: "red" }}>Aryan</span>
-            <span style={{ color: "blue" }}>Pokharel </span>
+            <span style={{ color: "#447ce8" }}>Pokharel </span>
           </Link>
           <button
             className="navbar-toggler"
@@ -43,7 +43,7 @@ function Navbar() {
             <ul className="navbar-nav d-flex flex-row">
               <li className="nav-item me-3 me-lg-0">
                 <Link className="nav-link" to="/">
-                  <i className="fab fa-facebook" style={{ color: "blue" }} />
+                  <i className="fab fa-facebook" style={{ color: "#447ce8" }} />
                 </Link>
               </li>
               <li className="nav-item me-3 me-lg-0">

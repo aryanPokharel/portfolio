@@ -10,7 +10,7 @@ const HomePage = () => {
       <div
         className="d-flex justify-content-center align-items-center"
         style={{
-          backgroundImage: backgroundImg, // Use backticks for dynamic URLs
+          backgroundImage: backgroundImg, 
           backgroundSize: "cover",
           backgroundPosition: "center",
           height: "100vh",
@@ -20,12 +20,11 @@ const HomePage = () => {
       >
         <div>
           {/* Stylish Hero Component */}
-          <h1 style={{ fontSize: "3em", fontWeight: "bold" }}>
-            Welcome to Our Website
+          <h1 style={{ fontSize: "3em", fontWeight: "bold",  }}>
+            Welcome
           </h1>
           <p style={{ fontSize: "1.5em", maxWidth: "600px" }}>
-            Explore our amazing products and discover the freshness of
-            peppermint.
+            Find out more about me by strolling around!
           </p>
         </div>
       </div>
