@@ -1,96 +1,64 @@
 import  { useState } from "react";
+import './Contact.css';
 
 function Contact() {
   const [name, setName] = useState("N/A");
   const [email, setEmail] = useState("N/A");
   const [message, setMessage] = useState("N/A");
   return (
-    <div>
-      <section className="card mb-4">
-        <div className="card-body">
-          <div style={{height : "10vh"}} ></div>
-          <h2 className="card-title">Contact</h2>
-          <p className="card-text">
-            Feel free to reach out to me via email at{" "}
-            <a href="mailto:aryanpokharel417@gmail.com">
-              aryanpokharel417@gmail.com
-            </a>
-            .
-            <br />
-            You can also connect with me on LinkedIn:{" "}
-            <a
-              href="https://www.linkedin.com/in/aryan-pokharel-0766401a6/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              aryan-pokharel
-            </a>
-            .
-          </p>
+    <div className="background">
+    <div className="container">
+      <div className="screen">
+        <div className="screen-header">
+          <div className="screen-header-left">
+            <div className="screen-header-button close" />
+            <div className="screen-header-button maximize" />
+            <div className="screen-header-button minimize" />
+          </div>
+          <div className="screen-header-right">
+            <div className="screen-header-ellipsis" />
+            <div className="screen-header-ellipsis" />
+            <div className="screen-header-ellipsis" />
+          </div>
         </div>
-      </section>
-      <div>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-md-6">
-              <form>
-                <div className="mb-3">
-                  <label htmlFor="name" className="form-label">
-                    Your name
-                  </label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    id="name"
-                    name="name"
-                    onChange={(e) => {
-                      setName(e.target.value);
-                    }}
-                  />
-                </div>
-                <div className="mb-3">
-                  <label htmlFor="email" className="form-label">
-                    Your email
-                  </label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    id="email"
-                    name="email"
-                    required
-                    onChange={(e) => {
-                      setEmail(e.target.value);
-                    }}
-                  />
-                </div>
-                <div className="mb-3">
-                  <label htmlFor="message" className="form-label">
-                    Your message
-                  </label>
-                  <textarea
-                    className="form-control"
-                    id="message"
-                    name="message"
-                    rows="3"
-                    required
-                    onChange={(e) => {
-                      setMessage(e.target.value);
-                    }}
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="btn btn-primary"
-                  onClick={() => {}}
-                >
-                  Send
-                </button>
-              </form>
+        <div className="screen-body">
+          <div className="screen-body-item left">
+            <div className="app-title">
+              <span>Any Queries?</span>
+              <span>Hit Me Up</span>
+            </div>
+            <div className="app-contact">CONTACT INFO : +977 9813056469</div>
+          </div>
+          <div className="screen-body-item">
+            <div className="app-form">
+              <div className="app-form-group">
+                <input
+                  className="app-form-control"
+                  placeholder="NAME"
+                  defaultValue="Aryan Pokharel"
+                />
+              </div>
+              <div className="app-form-group">
+                <input className="app-form-control" placeholder="EMAIL" />
+              </div>
+              <div className="app-form-group">
+                <input className="app-form-control" placeholder="CONTACT NO" />
+              </div>
+              <div className="app-form-group message">
+                <input className="app-form-control" placeholder="MESSAGE" />
+              </div>
+              <div className="app-form-group buttons">
+                <button className="app-form-button">CANCEL</button>
+                <button className="app-form-button">SEND</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    
     </div>
+  </div>
+  
   );
 }
 

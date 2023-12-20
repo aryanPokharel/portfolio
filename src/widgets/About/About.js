@@ -14,19 +14,19 @@ function About() {
           <div className="row">
             <div className="col-md-5">
               <h2 className="display-4 fw-bold text-primary mb-4">My Story</h2>
-              <p className="lead text-muted">
+              <p className="lead text-muted" id="summary1">
                 Hi, I'm Aryan Pokharel, a freelance developer, mobile & web,
                 based in Kathmandu. Here, you can learn a bit about me, my
                 background, and my interests.
               </p>
             </div>
             <div className="col-md-6 offset-md-1">
-              <p className="lead text-muted">
+              <p className="lead text-muted" id="summary2">
                 Background I have a background in Computer Science, and I'm
                 currently working as a freelancer. I have 3+ years of experience
                 in mobile and web development, and I'm a passionate learner.
               </p>
-              <p className="lead text-muted">
+              <p className="lead text-muted" id="summary3">
                 Skills Web Development With MERN Mobile Development With Flutter
                 & React Native Robotics & Micro-processors
               </p>

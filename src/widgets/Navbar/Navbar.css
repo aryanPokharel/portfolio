@@ -33,3 +33,12 @@
   font-weight: bold;
   font-size: 1.1rem;
 }
+.nav-link{
+  color: #fff;
+}
+.nav-link:hover{
+  color: red;
+}
+.nav-link:focus{
+  color: red;
+}

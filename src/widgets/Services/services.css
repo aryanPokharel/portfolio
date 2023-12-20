@@ -10,4 +10,7 @@
     margin-bottom: 5%;
   }
 }
-/* Services.css */
+.services-container{
+  background-image: url('../../media/aboutBg.jpg');
+  background-size:cover;
+}
