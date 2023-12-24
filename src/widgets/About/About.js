@@ -53,9 +53,7 @@ function About() {
                   </div>
                   <div className="card-body">
                     <h5 className="card-title">
-                      {project.name}
-                      {"   "}
-                      {project.name === "Budget Buddy" && (
+                    {project.name === "Shared Karobar" && (
                         <a href={sharedKarobarApk} download>
                           {/* create a primary button */}
                           <button className="btn btn-success">
@@ -73,7 +71,9 @@ function About() {
                           </button>
                         </a>
                       )}
-                      {project.name === "Freelance Nepal" && (
+                      {project.name}
+                      {"   "}
+                      {project.name === "Budget Buddy" && (
                         <a href={budgetBuddyApk} download>
                           {/* create a primary button */}
                           <button className="btn btn-primary">
@@ -91,6 +91,7 @@ function About() {
                           </button>
                         </a>
                       )}
+                     
                     </h5>
 
                     <p className="card-text">{project.title}</p>

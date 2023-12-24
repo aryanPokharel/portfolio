@@ -3,6 +3,14 @@ import "./projects.css";
 const Projects = () => {
   const projects = [
     {
+      title: "Shared Karobar",
+      description:
+        "Mobile app that helps you manage your budget and expenses. Built with Flutter.",
+      image:
+        "https://www.banking24seven.com/wp-content/uploads/2018/12/BANKING-featured-image-of-finance-budget.jpg",
+      link: "https://github.com/aryanPokharel/BudgetBuddy.git",
+    },
+    {
       title: "Budget Buddy",
       description:
         "Mobile app that helps you manage your budget and expenses. Built with Flutter.",
