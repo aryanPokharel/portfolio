@@ -4,6 +4,7 @@ import project2 from "../../media/budgetBuddy.png";
 import project3 from "../../media/budgetBuddy.png";
 import project4 from "../../media/budgetBuddy.png";
 import project5 from "../../media/budgetBuddy.png";
+import project6 from "../../media/budgetBuddy.png";
 import budgetBuddyApk from "../../files/budgetBuddy.apk";
 import sharedKarobarApk from "../../files/sharedKarobar.apk";
 function About() {
@@ -108,14 +109,14 @@ function About() {
 
 const projects = [
   { name: "Budget Buddy", title: "Finance App", image: project1 },
-
-  { name: "Freelance Nepal", title: "Freelancing App", image: project2 },
-  { name: "Smart Door", title: "IoT Smart Gate", image: project3 },
-  { name: "Freelancing Website", title: "Web Interface", image: project4 },
+  { name: "Shared Karobar", title: "Freelancing App", image: project2},
+  { name: "Freelance Nepal", title: "Freelancing App", image: project3 },
+  { name: "Smart Door", title: "IoT Smart Gate", image: project4 },
+  { name: "Freelancing Website", title: "Web Interface", image: project5 },
   {
     name: "Sipalu",
     title: "Workforce Hiring App",
-    image: project5,
+    image: project6,
   },
 ];
 
