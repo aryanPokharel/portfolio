@@ -106,7 +106,7 @@ function About() {
 
 const projects = [
   { name: "Budget Buddy", title: "Finance App", image: project1 },
-  { name: "Shared Karobar", title: "Freelancing App", image: project2 },
+  { name: "Shared Karobar", title: "Group Budget App", image: project2 },
   { name: "Freelance Nepal", title: "Freelancing App", image: project3 },
   { name: "Smart Door", title: "IoT Smart Gate", image: project4 },
   { name: "Freelancing Website", title: "Web Interface", image: project5 },
