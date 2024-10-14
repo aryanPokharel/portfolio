@@ -134,9 +134,9 @@ const projects = [
     image: project6,
   },
   {
-    title: "Spend Sync",
-    description:
-      "Mobile app that helps you manage your budget and expenses. Built with Flutter.",
+    name: "Spend Sync",
+    title: "New Budget App",
+
     image:
       "https://www.banking24seven.com/wp-content/uploads/2018/12/BANKING-featured-image-of-finance-budget.jpg",
     link: "",

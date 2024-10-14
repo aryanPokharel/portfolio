@@ -9,7 +9,7 @@ function Navbar() {
         <div className="container">
           <Link className="navbar-brand" to="/">
             <span style={{ color: "red" }}>Aryan</span>
-            <span style={{ color: "#447ce8" }}>Pokharel Yo</span>
+            <span style={{ color: "#447ce8" }}>Pokharel </span>
           </Link>
           <button
             className="navbar-toggler"
