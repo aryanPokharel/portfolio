@@ -94,7 +94,7 @@ function About() {
 
                       {project.name === "Spend Sync" && (
                         <a href={spendSyncApk} download>
-                          <button className="btn btn-warning">
+                          <button className="btn btn-success">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={16}
